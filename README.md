@@ -15,7 +15,7 @@
 <p>code .</p>
 <p>npm start</p>
 
-/*
+<!--
 src
 remove app.test.js, setupTest.js App.css, logo.svg, serviceWorker/reportWebVitals
 
@@ -41,7 +41,7 @@ don't forget semicolon end of import and export
 
 Header component is complete
 create another component under components folder
-*/
+-->
 
 <h2>Commands used to publish react files in github:</h2>
 
