@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/income-tracker-react/static/css/main.c8f5dbee.chunk.css",
+    "main.js": "/income-tracker-react/static/js/main.77c8d683.chunk.js",
+    "main.js.map": "/income-tracker-react/static/js/main.77c8d683.chunk.js.map",
+    "runtime-main.js": "/income-tracker-react/static/js/runtime-main.60c14926.js",
+    "runtime-main.js.map": "/income-tracker-react/static/js/runtime-main.60c14926.js.map",
+    "static/js/2.8ea5f315.chunk.js": "/income-tracker-react/static/js/2.8ea5f315.chunk.js",
+    "static/js/2.8ea5f315.chunk.js.map": "/income-tracker-react/static/js/2.8ea5f315.chunk.js.map",
+    "index.html": "/income-tracker-react/index.html",
+    "static/css/main.c8f5dbee.chunk.css.map": "/income-tracker-react/static/css/main.c8f5dbee.chunk.css.map",
+    "static/js/2.8ea5f315.chunk.js.LICENSE.txt": "/income-tracker-react/static/js/2.8ea5f315.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60c14926.js",
+    "static/js/2.8ea5f315.chunk.js",
+    "static/css/main.c8f5dbee.chunk.css",
+    "static/js/main.77c8d683.chunk.js"
+  ]
+}
