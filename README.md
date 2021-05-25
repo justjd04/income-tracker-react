@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<h1>Income Tracker Using React</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>Used React components, React hooks such as; useState, useRef and useEffect. Used array map and sort to list and sort the income items.</p>
 
-## Available Scripts
+<h2>The Published Income Tracker App:</h2>
 
-In the project directory, you can run:
+<p>https://justjd04.github.io/income-tracker-react/</p>
 
-### `npm start`
+<p><img src="income-tracker-react.png" alt="income-tracker-react app" width="500" height="500"></p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2>Commands to create-react-app:</h2>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p>npx create-react-app income-tracker-react</p>
+<p>cd income-tracker-react</p>
+<p>code .</p>
+<p>npm start</p>
 
-### `npm test`
+/*
+src
+remove app.test.js, setupTest.js App.css, logo.svg, serviceWorker/reportWebVitals
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+App.js
+remove logo and app.css
 
-### `npm run build`
+index.js
+remove import serviceWorker/reportWebVitals
+remove reportWebVitals function below with comment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+App.js
+import React, { useState, useEffect } from 'react';
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+all components in components folder
+create components/Header.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+App.js
+import Header from './components/Header';
 
-### `npm run eject`
+Header.js
+rfce
+don't forget semicolon end of import and export
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Header component is complete
+create another component under components folder
+*/
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<h2>Commands used to publish react files in github:</h2>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p>Go to package.json</p>
+<p>Add:"homepage": "https://justjd04.github.io/income-tracker-react",</p>
+<p>Format:https://UserName.github.io/Project-name</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<p>Under scripts</p>
+<p>Add:</p>
+<p>"predeploy": "npm run build",</p>
+<p>"deploy": "gh-pages -d build",</p>
 
-## Learn More
+<p>cmd:</p>
+<p>git remote add origin https://justjd04.github.io/income-tracker-react</p>
+<p>git remote set-url origin https://justjd04.github.io/income-tracker-react</p>
+<p>npm run build</p>
+<p>npm run deploy</p>
+<p>(ERR! gh-pages is not recognized Solution:npm install gh-pages --save-dev)</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h2>Push using Git Bash:</h2>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p>cd income-tracker-react</p>
+<p>git remote add origin https://github.com/justjd04/income-tracker-react.git</p>
+<p>git remote</p>
+<p>git status</p>
+<p>git add .</p>
+<p>git commit -m "initial commit"</p>
+<p>git push -u origin master</p>
