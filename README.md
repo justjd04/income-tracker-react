@@ -6,7 +6,7 @@
 
 <p>https://justjd04.github.io/income-tracker-react/</p>
 
-<p><img src="income-tracker-react.png" alt="income-tracker-react app" width="500" height="500"></p>
+<p><a href="https://justjd04.github.io/income-tracker-react/"><img src="income-tracker-react.png" alt="income-tracker-react app" width="500" height="500"></a></p>
 
 <h2>Commands to create-react-app:</h2>
 
