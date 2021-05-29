@@ -55,8 +55,8 @@ create another component under components folder
 <p>"deploy": "gh-pages -d build",</p>
 
 <p>cmd:</p>
-<p>git remote add origin https://justjd04.github.io/income-tracker-react</p>
-<p>git remote set-url origin https://justjd04.github.io/income-tracker-react</p>
+<p>git remote add origin https://github.com/justjd04/income-tracker-react</p>
+<p>git remote set-url origin https://github.com/justjd04/income-tracker-react</p>
 <p>npm run build</p>
 <p>npm run deploy</p>
 <p>(ERR! gh-pages is not recognized Solution:npm install gh-pages --save-dev)</p>
