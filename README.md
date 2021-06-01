@@ -2,9 +2,7 @@
 
 <p>Used React components, React hooks such as; useState, useRef and useEffect. Used array map and sort to list and sort the income items.</p>
 
-<h2>The Published Income Tracker App:</h2>
-
-<p>https://justjd04.github.io/income-tracker-react/</p>
+<p>Published: https://justjd04.github.io/income-tracker-react/</p>
 
 
 <h2>Commands to create-react-app:</h2>
